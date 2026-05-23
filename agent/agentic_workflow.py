@@ -8,7 +8,7 @@ from langgraph.graph import StateGraph, MessageState, END, START
 from langgraph.prebuilt import ToolNode, tools_condition
 
 
-class GraphicBuilder():
+class GraphBuilder():
     def __init__(self):
         self.tools = [
             WeatherInfoTool(),
@@ -41,4 +41,4 @@ class GraphicBuilder():
 
 
     def __call__(self):
-        pass
+        return self.build_graph()
