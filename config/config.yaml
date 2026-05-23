@@ -1,0 +1,9 @@
+llm:
+  openai:
+    model: "openai"
+    model_name: "o4-mini"
+
+  groq:
+    model: "groq"
+    model_name: "deepseek-r1-distill-llama-70b"
+
