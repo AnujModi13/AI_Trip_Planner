@@ -6,5 +6,6 @@ Author: Anuj Modi
 Author-email: modianuj7613@gmail.com
 Requires-Python: >=3.09
 Description-Content-Type: text/markdown
+Requires-Dist: pandas>=2.3.3
 Dynamic: author
 Dynamic: author-email
